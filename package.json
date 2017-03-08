@@ -10,11 +10,11 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "node hackathonApp.js"
+	  "start": "node hackathonApp.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gunaysukru/Node.js-MongoDB-Find.git"
+    "url": "https://github.com/gunaysukru/Node.js-MongoDB-Find.git"
   },
   "author": "GunaySukru",
   "license": "ISC",

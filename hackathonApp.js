@@ -6,6 +6,7 @@ var MongoClient = mongodb.MongoClient;
 var dbUrl = 'mongodb://dbUser:dbPassword@ds155428.mlab.com:55428/getir-bitaksi-hackathon';
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
+app.set('port', (process.env.PORT || 5000 ));
 
 app.post('/getRecord', function(req, res) {
 
@@ -83,6 +84,6 @@ app.post('/getRecord', function(req, res) {
   });
 
 });
-app.listen('2015', function() {
-  console.log("App online, 2015 port listen");
+app.listen(app.get('port'), function() {
+  console.log('Listen', app.get('port'));
 });
