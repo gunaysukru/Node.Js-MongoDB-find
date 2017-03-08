@@ -1,0 +1,25 @@
+{
+  "name": "getir-bitaksi-hackathon",
+  "version": "1.0.0",
+  "description": "Getir BiTaksi hackathon appilication",
+  "main": "hackathonApp.js",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "mongodb": "^2.2.24"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node hackathonApp.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gunaysukru/Node.js-MongoDB-Find.git"
+  },
+  "author": "GunaySukru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gunaysukru/Node.js-MongoDB-Find/issues"
+  },
+  "homepage": "https://github.com/gunaysukru/Node.js-MongoDB-Find#readme"
+}
